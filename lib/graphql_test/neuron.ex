@@ -1,5 +1,5 @@
 defmodule GraphqlTest.Neuron do
-  @behaviour Client
+  @behaviour GraphqlTest.Client
 
   @impl
   def send(url, query, args \\ %{}) do
