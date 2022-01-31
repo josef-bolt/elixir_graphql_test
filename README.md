@@ -1,21 +1,8 @@
 # GraphqlTest
 
-**TODO: Add description**
+Minimal test application for the [Neuron](https://github.com/uesteibar/neuron) GraphQL client.
+Uses the public [StarWars API](https://graphql.org/swapi-graphql?query=%0A%7B%0A%20%20allFilms%20%7B%0A%20%20%20%20films%20%7B%0A%20%20%20%20%20%20title%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D).
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `graphql_test` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:graphql_test, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/graphql_test](https://hexdocs.pm/graphql_test).
-
+## Usage
